@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=PT+Sans&display=swap");
+@import url("https://fonts.cdnfonts.com/css/post-no-bills-jaffna");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  max-width: 1010px;
+  margin: 0 auto;
+}
+.container-2 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+/* --header qismining boshlanishi */
+
+/* --headerning div qismi-- */
+header {
+  background-color: #000000;
+}
+.header-div {
+  padding: 14px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header-div div {
+  display: flex;
+  gap: 15px;
+}
+.header-div div p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+}
+/* --headerning div qismi tugadi-- */
+
+/* headerning nav qismi boshlandi */
+.nav-container {
+  padding: 31px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-div h1 {
+  font-family: "Post No Bills Jaffna";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+.nav-list a {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #969696;
+}
+.btn {
+  display: none;
+}
+/* --headerning nav qismi tugashi */
+
+/*--main ning crad-1 qismi */
+.card-1 {
+  background-image: url(../images/background-images.png);
+  width: 100%;
+  height: 810px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  margin-top: 160px;
+  padding: 94px 65px;
+  align-items: center;
+  width: 320px;
+  height: 320px;
+  border: 4px solid#fff;
+}
+.box h1 {
+  font-family: "Post No Bills Jaffna";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  text-align: center;
+  color: #ffffff;
+}
+.box h2 {
+  margin-top: 6px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.card-1-container p {
+  margin-top: 80px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*--sectionning  card-1 qismi tugadi  */
+
+/*--card-2 ning boshlanishi-- */
+.card-2 {
+  background-color: #000000;
+}
+.card-2-conatiner-2 {
+  display: flex;
+  padding-bottom: 25px;
+}
+.hour,
+.colletion {
+  width: 50%;
+}
+.hour h2 {
+  margin: 100px 0;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.mini-card {
+  display: flex;
+  gap: 46px;
+}
+.mini {
+  padding: 55px 17px 30px;
+  width: 180px;
+  background-color: #191b1c;
+}
+.mini img {
+  margin-bottom: 20px;
+  width: 150px;
+}
+.mini p {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.colletion {
+  background-image: url(../images/backgroun_man.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.colletion h2 {
+  margin-top: 363px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.colletion button {
+  margin-top: 40px;
+  padding: 12px 28px;
+  border: none;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*--- card-2 tugadi */
+
+/* card 3 boshlandi */
+.card-3 {
+  background-color: #000000;
+}
+.card-3-container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.card-3-container-2 div {
+  width: 50%;
+}
+.card-3-container-2 img {
+  width: 100%;
+}
+.inter {
+  text-align: center;
+  padding: 0 50px;
+}
+.old-colletion {
+  text-align: center;
+  padding-left: 30px;
+}
+.old-colletion h2 {
+  margin-bottom: 50px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.old-colletion p {
+  margin-bottom: 50px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.old-colletion button {
+  padding: 12px 28px;
+  border: 3px solid #ffffff;
+  cursor: pointer;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.card-4 {
+  background-color: #000000;
+  padding-bottom: 50px;
+}
+.card-4-container {
+  flex-wrap: wrap;
+}
+.card-4-container div {
+  margin-bottom: 20px;
+}
+.card-4-container h2 {
+  padding-top: 20px;
+  margin-bottom: 40px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+footer {
+  background-color: #000000;
+}
+.footer-container h2 {
+  padding-bottom: 50px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #ffffff;
+}
+.foure {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  /* --headerning div qismi uchun responsive */
+  .header-div div {
+    display: none;
+  }
+  .header-div .data_2 {
+    padding: 25px 20px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+  }
+  /* --headerning div qismi uchun responsive */
+
+  /* -- headerning nav qismi uchun responsive */
+  .nav-container {
+    padding: 30px 20px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .btn {
+    display: inline-block;
+    border: none;
+  }
+  /* --headerning nav qismi uchun responsevi tugad-- */
+
+  /*-- main section ning card-1 qismi  */
+  .card-1 {
+    padding: 15px 20px;
+  }
+  /*-section ning card-1 qismi tugadi */
+
+  /*--card-2 responsevi qismi */
+  .card-2-conatiner-2 {
+    flex-direction: column-reverse;
+  }
+  .hour {
+    padding: 0 20px;
+  }
+  .inter {
+    display: flex;
+    justify-content: center;
+  }
+  .mini-card {
+    flex-wrap: wrap;
+  }
+  .colletion {
+    width: 100%;
+    padding-bottom: 20px;
+    background-position: top left;
+  }
+  /*-- card-3 responsive */
+  .card-2-container-2 {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .old-colletion {
+    padding: 50px 20px;
+  }
+  .old-colletion p {
+    display: none;
+  }
+  .man-2 {
+    display: none;
+  }
+  .card-4 {
+    padding: 20px;
+  }
+  .hours {
+    display: flex;
+    justify-content: center;
+  }
+  .foure {
+    display: flex;
+    justify-content: center;
+  }
+  .city {
+    display: flex;
+    justify-content: center;
+  }
+}
